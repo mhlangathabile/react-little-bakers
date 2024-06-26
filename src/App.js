@@ -1,31 +1,23 @@
-import "./App.css";
-import HomePage from "./HomePage";
-import { BroswerRouter as Router, Route, Switch } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./Component/HomePage";
+import AboutUs from "./Component/AboutUs";
+import MenuPage from "./Component/MenuPage";
+import EventsPage from "./Component/EventsPage";
+import ContactUs from "./Component/ContactUs";
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <div className="App">
-        <div className="Content">
-          <Switch>
-            <Route path="/">
-              <HomePage />
-            </Route>
-          </Switch>
-        </div>
-        <h1>React Bakery</h1>
-        <footer>
-          This project was coded by Thabile P Mhlanga and is{" "}
-          <a
-            href="https://github.com/mhlangathabile/react-weather-forecast"
-            target="_blank"
-          >
-            open-sourced on GitHub
-          </a>
-        </footer>
-      </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/MenuPage" element={<MenuPage />} />
+        <Route path="/EventsPage" element={<EventsPage />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+      </Routes>
     </Router>
   );
-}
+};
 
 export default App;
