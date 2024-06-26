@@ -1,1 +1,34 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #fbf7f7;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px 50px;
+}
+
+.site-name {
+  font-size: 30px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
