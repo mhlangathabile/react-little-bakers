@@ -3,6 +3,7 @@ import React from "react";
 const HomePage = () => {
   return (
     <div>
+      {/* Navigation */}
       <nav className="nav">
         <a href="/" className="site-name">
           TINY BAKERS
@@ -25,6 +26,10 @@ const HomePage = () => {
           </li>
         </ul>
       </nav>
+      <div className="homepage">
+        <h1>TINY BAKERS</h1>
+        <h3>"Sweet Treats Made by Tiny Feet!"</h3>
+      </div>
     </div>
   );
 };
