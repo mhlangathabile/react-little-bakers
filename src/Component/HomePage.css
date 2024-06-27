@@ -1,2 +1,22 @@
+.homepage {
+  padding: 50px;
+  background-image: url("/src/Images/Flour.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .homepage h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+.homepage h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 25px;
 }
