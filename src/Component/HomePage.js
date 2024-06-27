@@ -4,9 +4,9 @@ import NavBar from "./NavBar";
 
 const HomePage = () => {
   return (
-    <div className="homepage">
+    <div>
       <NavBar />
-      <div>
+      <div className="homepage">
         <h1>TINY BAKERS</h1>
         <h3>"Sweet Treats Made by Tiny Feet!"</h3>
       </div>

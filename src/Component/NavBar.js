@@ -3,29 +3,21 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div>
-      <nav className="nav">
-        <a href="/" className="site-name">
-          TINY BAKERS
-        </a>
-        <ul>
-          <li>
-            <a href="/">HOMEPAGE</a>
-          </li>
-          <li>
-            <a href="/AboutUs">ABOUT US</a>
-          </li>
-          <li>
-            <a href="/MenuPage">MENU </a>
-          </li>
-          <li>
-            <a href="/EventsPage">EVENTS</a>
-          </li>
-          <li>
-            <a href="/ContactUs">CONTACT US</a>
-          </li>
-        </ul>
+    <div className="nav">
+      <nav>
+        <div className="container-fluid">
+          <a href="/" className="site-name">
+            TINY BAKERS
+          </a>
+        </div>
       </nav>
+      <div className="mt-3 links">
+        <a href="/">HOME</a>
+        <a href="/AboutUs">ABOUT US</a>
+        <a href="/MenuPage">MENU</a>
+        <a href="/EventsPage">EVENTS</a>
+        <a href="/ContactUs">CONTACT US</a>
+      </div>
     </div>
   );
 };
