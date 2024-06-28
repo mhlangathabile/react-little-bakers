@@ -16,7 +16,7 @@ const AboutUs = () => {
         </div>
         <div className="col-6">
           <h1 className="text-center">ABOUT US</h1>
-          <div>
+          <div className=" border-top border-right border-danger rounded-bottom p-5">
             <p>
               Welcome to Tiny Bakers, where little hands create big delights!
               Born from the joy of seeing kids turn kitchen messes into magical
