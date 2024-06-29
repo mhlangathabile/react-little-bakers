@@ -5,15 +5,43 @@ const MenuPage = () => {
   let Menu = [
     {
       name: "Nutella Heart Pie Pops",
-      price: "R25",
+      price: "R",
     },
     {
-      name: "Popsicles",
-      price: "R10",
+      name: "Strawberry Donut Kabobs",
+      price: "R",
     },
     {
-      name: "Another Item",
-      price: "R30",
+      name: "Nutella Pancake Stacks",
+      price: "R",
+    },
+    {
+      label: "Heart Pizza",
+      cost: "R",
+    },
+    {
+      label: "Pizza Wheels",
+      cost: "R",
+    },
+    {
+      label: "Filled Croissants",
+      cost: "R",
+    },
+    {
+      tag: "Whipped Hot Chocolate",
+      value: "R",
+    },
+    {
+      tag: "Milkshake Shooters",
+      value: "R",
+    },
+    {
+      tag: "Rainbow Popsicles",
+      value: "R",
+    },
+    {
+      tag: "Yoghurt Popsicles",
+      value: "R",
     },
   ];
 
@@ -23,27 +51,29 @@ const MenuPage = () => {
       <h1 className="text-center p-3">MENU</h1>
       <div className="row">
         {Menu.map((item, index) => (
-          <div className="col-4" key={index}>
+          <div className="col-4 text-center" key={index}>
             <p>
-              {item.name} {item.price}
+              {item.name}
+              <br /> {item.price}
             </p>
           </div>
         ))}
       </div>
       <div className="row">
         {Menu.map((item, index) => (
-          <div className="col-4" key={index}>
+          <div className="col-4 text-center" key={index}>
             <p>
-              {item.name} {item.price}
+              {item.label} <br /> {item.cost}
             </p>
           </div>
         ))}
       </div>
       <div className="row">
         {Menu.map((item, index) => (
-          <div className="col-4" key={index}>
+          <div className="col-3 text-center" key={index}>
             <p>
-              {item.name} {item.price}
+              {item.tag} <br />
+              {item.value}
             </p>
           </div>
         ))}
