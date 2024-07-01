@@ -9,7 +9,7 @@ const ContactUs = () => {
         <div class="row align-items-center g-lg-5 py-5">
           <div class="col-lg-7 text-center text-lg-start">
             <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
-              Contact Our Baking Team!
+              TINY BAKERS CLUB
             </h1>
             <p class="col-lg-10 fs-4">
               We'd love to hear from you! Whether you have questions,
