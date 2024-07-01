@@ -29,36 +29,36 @@ const MenuPage = () => {
       price: "R",
     },
     {
-      image: HeartyPizza,
+      photo: HeartyPizza,
       label: "Hearty Pizza",
       cost: "R",
     },
     {
-      image: PizzaWheels,
+      photo: PizzaWheels,
       label: "Pizza Wheels",
       cost: "R",
     },
     {
-      image: FilledCroissants,
+      photo: FilledCroissants,
       label: "Filled Croissants",
       cost: "R",
     },
     {
-      image: RainbowPopsicles,
+      visual: WhippedHotChocolate,
       tag: "Whipped Hot Chocolate",
       value: "R",
     },
     {
-      image: YoghurtPopsicles,
+      visual: MilkshakeShooters,
       tag: "Milkshake Shooters",
       value: "R",
     },
     {
-      image: WhippedHotChocolate,
+      visual: RainbowPopsicles,
       tag: "Rainbow Popsicles",
       value: "R",
     },
-    { image: MilkshakeShooters, tag: "Yoghurt Popsicles", value: "R" },
+    { visual: YoghurtPopsicles, tag: "Yoghurt Popsicles", value: "R" },
   ];
 
   return (
@@ -79,7 +79,7 @@ const MenuPage = () => {
       <div className="row">
         {Menu.map((item, index) => (
           <div className="col-4 text-center" key={index}>
-            <img src={item.image} alt={item.name} style={{ width: "100%" }} />
+            <img src={item.photo} alt={item.label} style={{ width: "100%" }} />
             <p>
               {item.label} <br /> {item.cost}
             </p>
@@ -89,7 +89,7 @@ const MenuPage = () => {
       <div className="row">
         {Menu.map((item, index) => (
           <div className="col-3 text-center" key={index}>
-            <img src={item.image} alt={item.name} style={{ width: "100%" }} />
+            <img src={item.visual} alt={item.tag} style={{ width: "100%" }} />
             <p>
               {item.tag} <br />
               {item.value}
