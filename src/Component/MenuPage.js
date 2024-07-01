@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import "./Menu.css";
 import NutellaHeartPiePops from "../Images/Nutella Heart Pie Pops.jpg";
 import StrawberryDonutKabobs from "../Images/Strawberry Donut Kabobs -.jpg";
 import NutellaPancakeStacks from "../Images/Nutella Pancake Stacks.jpg";
@@ -16,49 +17,53 @@ const MenuPage = () => {
     {
       image: NutellaHeartPiePops,
       name: "Nutella Heart Pie Pops",
-      price: "R",
+      price: "R25",
     },
     {
       image: StrawberryDonutKabobs,
       name: "Strawberry Donut Kabobs",
-      price: "R",
+      price: "R20",
     },
     {
       image: NutellaPancakeStacks,
       name: "Nutella Pancake Stacks",
-      price: "R",
+      price: "R30",
     },
     {
-      photo: HeartyPizza,
-      label: "Hearty Pizza",
-      cost: "R",
+      image: HeartyPizza,
+      name: "Hearty Pizza",
+      price: "R35",
     },
     {
-      photo: PizzaWheels,
-      label: "Pizza Wheels",
-      cost: "R",
+      image: PizzaWheels,
+      name: "Pizza Wheels",
+      price: "R40",
     },
     {
-      photo: FilledCroissants,
-      label: "Filled Croissants",
-      cost: "R",
+      image: FilledCroissants,
+      name: "Filled Croissants",
+      price: "R45",
     },
     {
-      visual: WhippedHotChocolate,
-      tag: "Whipped Hot Chocolate",
-      value: "R",
+      image: WhippedHotChocolate,
+      name: "Whipped Hot Chocolate",
+      price: "R50",
     },
     {
-      visual: MilkshakeShooters,
-      tag: "Milkshake Shooters",
-      value: "R",
+      image: MilkshakeShooters,
+      name: "Milkshake Shooters",
+      price: "R55",
     },
     {
-      visual: RainbowPopsicles,
-      tag: "Rainbow Popsicles",
-      value: "R",
+      image: RainbowPopsicles,
+      name: "Rainbow Popsicles",
+      price: "R60",
     },
-    { visual: YoghurtPopsicles, tag: "Yoghurt Popsicles", value: "R" },
+    {
+      image: YoghurtPopsicles,
+      name: "Yoghurt Popsicles",
+      price: "R65",
+    },
   ];
 
   return (
@@ -68,31 +73,10 @@ const MenuPage = () => {
       <div className="row">
         {Menu.map((item, index) => (
           <div className="col-4 text-center" key={index}>
-            <img src={item.image} alt={item.name} style={{ width: "100%" }} />
+            <img src={item.image} alt={item.name} className="menu-image" />
             <p>
               {item.name}
               <br /> {item.price}
-            </p>
-          </div>
-        ))}
-      </div>
-      <div className="row">
-        {Menu.map((item, index) => (
-          <div className="col-4 text-center" key={index}>
-            <img src={item.photo} alt={item.label} style={{ width: "100%" }} />
-            <p>
-              {item.label} <br /> {item.cost}
-            </p>
-          </div>
-        ))}
-      </div>
-      <div className="row">
-        {Menu.map((item, index) => (
-          <div className="col-3 text-center" key={index}>
-            <img src={item.visual} alt={item.tag} style={{ width: "100%" }} />
-            <p>
-              {item.tag} <br />
-              {item.value}
             </p>
           </div>
         ))}
