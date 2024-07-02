@@ -67,7 +67,7 @@ const MenuPage = () => {
   ];
 
   return (
-    <div>
+    <div class="menuBody">
       <NavBar />
       <h1 className="text-center p-3">MENU</h1>
       <div className="row">
