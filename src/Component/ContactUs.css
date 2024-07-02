@@ -1,8 +1,9 @@
-body {
+.contactUs {
   background-image: url("../Images/contactUs.jpg");
   height: 100vh;
   padding: 100px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
