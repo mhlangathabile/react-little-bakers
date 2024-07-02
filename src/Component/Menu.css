@@ -1,6 +1,11 @@
 .menuBody {
   background-color: black;
   color: #fbf7f7;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.menuBody h1 {
+  font-size: 80px;
 }
 
 .menu-image {
