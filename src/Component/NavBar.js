@@ -15,7 +15,6 @@ const NavBar = () => {
         <a href="/">HOME</a>
         <a href="/AboutUs">ABOUT US</a>
         <a href="/MenuPage">MENU</a>
-        <a href="/EventsPage">EVENTS</a>
         <a href="/ContactUs">CONTACT US</a>
       </div>
     </div>
