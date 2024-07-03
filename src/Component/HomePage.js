@@ -8,17 +8,17 @@ const HomePage = () => {
     <div>
       <NavBar />
       <div className="homepage row">
-        <div className="col-6">
-          <img
-            src={DonutsGif}
-            alt="DonutsGif"
-            style={{ height: "100%", width: "100%" }}
-          />
-        </div>
         <div className="col-6 bakers">
           <h1>TINY BAKERS</h1>
           <br />
           <h3>"Sweet Treats Made by Tiny Feet!"</h3>
+        </div>
+        <div className="col-6">
+          <img
+            src={DonutsGif}
+            alt="DonutsGif"
+            // style={{ height: "100%", width: "100%" }}
+          />
         </div>
       </div>
     </div>

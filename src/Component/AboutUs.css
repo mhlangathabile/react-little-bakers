@@ -4,8 +4,9 @@
 }
 
 img {
-  width: 50%;
-  height: 50%;
+  width: 700px;
+  max-height: 600px;
+  padding-left: 100px;
 }
 
 .aboutUs h1 {
@@ -16,4 +17,5 @@ img {
 
 p {
   font-size: 20px;
+  line-height: 40px;
 }
