@@ -9,7 +9,7 @@ const ContactUs = () => {
       <div className="container col-xl-10 col-xxl-8 px-4 py-5">
         <div className="row align-items-center g-lg-5 py-5">
           <div className="col-lg-7 text-center text-lg-start">
-            <h1 className="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+            <h1 className="display-4 fw-bold text-body-emphasis mb-3">
               TINY BAKERS CLUB
             </h1>
             <p className="col-lg-10 fs-4">
@@ -34,16 +34,17 @@ const ContactUs = () => {
                 <input type="email" class="form-control" id="floatingInput" />
                 <label for="floatingInput">Name</label>
               </div>
-              <div className="form-floating mb-3 club">
-                <input
-                  type="textarea"
-                  className="form-control"
-                  id="floatingInput"
-                />
-                <label for="floatingInput">Dear Bakers...</label>
+              <div class="form-floating mb-4">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"
+                  style={{ height: "100px" }}
+                ></textarea>
+                <label for="floatingTextarea">Dear Bakers...</label>
               </div>
-              <button className="w-100 btn btn-lg btn-primary" type="submit">
-                Let's Connect
+              <button className="w-100 btn btn-lg" type="submit">
+                Let's Bake
               </button>
             </form>
           </div>
