@@ -1,47 +1,6 @@
-.bakers {
-  background-color: #bb9cd6;
-  color: #fbf7f7;
-  font-family: "Alegreya Sans SC", sans-serif;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  height: 110%;
-}
-
 .homepage {
-  height: 80vh;
-  display: flex;
-  margin: 0;
-  /* width: 100%; */
-}
-
-.homepage .row {
-  margin: 0;
-  width: 100%;
-}
-
-.homepage .col-6 {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.homepage img {
-  object-fit: cover;
-  height: 110%;
-  width: 110%;
-  display: block;
-}
-
-.homepage h1 {
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 70px;
-  padding-top: 50px;
-  margin: 0;
+  background-color: #f5f5f5;
+  color: #065488;
+  height: 100vh;
 }
