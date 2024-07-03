@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.css";
 import NavBar from "./NavBar";
-import DonutsGif from "../Images/Donuts .gif";
+import ChefsAttire from "../Images/Chefs attire.jpg";
 
 const HomePage = () => {
   return (
@@ -15,7 +15,7 @@ const HomePage = () => {
         </div>
         <div className="col-6">
           <img
-            src={DonutsGif}
+            src={ChefsAttire}
             alt="DonutsGif"
             // style={{ height: "100%", width: "100%" }}
           />

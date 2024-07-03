@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import "./AboutUs.css";
-import aboutUsImage from "../Images/Still Life Image.gif";
+import ChefsAttire from "../Images/Chefs attire.jpg";
 
 const AboutUs = () => {
   return (
@@ -24,7 +24,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="col-6">
-          <img src={aboutUsImage} alt="Little Chefs" className="img-fluid" />
+          <img src={ChefsAttire} alt="Little Chefs" className="img-fluid" />
         </div>
       </div>
     </div>
