@@ -1,5 +1,5 @@
 .bakers {
-  background-color: #feb0c8;
+  background-color: #bb9cd6;
   color: #fbf7f7;
   font-family: "Alegreya Sans SC", sans-serif;
   justify-content: center;
@@ -9,7 +9,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 110%;
 }
 
 .homepage {
@@ -19,10 +19,10 @@
   /* width: 100%; */
 }
 
-/* .homepage .row {
+.homepage .row {
   margin: 0;
   width: 100%;
-} */
+}
 
 .homepage .col-6 {
   padding: 0;
@@ -34,8 +34,8 @@
 
 .homepage img {
   object-fit: cover;
-  height: 100%;
-  width: 100%;
+  height: 110%;
+  width: 110%;
   display: block;
 }
 

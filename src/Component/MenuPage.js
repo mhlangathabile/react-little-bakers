@@ -74,7 +74,7 @@ const MenuPage = () => {
         {Menu.map((item, index) => (
           <div className="col-4 text-center" key={index}>
             <img src={item.image} alt={item.name} className="menu-image" />
-            <p>
+            <p className="menu">
               {item.name}
               <br /> {item.price}
             </p>
