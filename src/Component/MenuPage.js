@@ -67,18 +67,30 @@ const MenuPage = () => {
   ];
 
   return (
-    <div class="menuBody">
+    <div className="menuBody">
       <NavBar />
       <h1 className="text-center p-3">MENU</h1>
-      <div className="row">
+
+      <div className="card-container">
         {Menu.map((item, index) => (
-          <div className="col-4 text-center" key={index}>
-            <img src={item.image} alt={item.name} className="menu-image" />
-            <p className="menu">
-              {item.name}
-              <br /> {item.price}
-            </p>
+          <div className="card" key={index}>
+            <img src={item.image} alt={item.name} />
+            <div className="card-content">
+              <h3>{item.name}</h3>
+              <p>Flavours</p>
+              <button href="" className="btn">
+                BUY
+              </button>
+            </div>
           </div>
+
+          // <div className="col-4 text-center" key={index}>
+          //   <img src={item.image} alt={item.name} className="menu-image" />
+          //   <p className="menu">
+          //     {item.name}
+          //     <br /> {item.price}
+          //   </p>
+          // </div>
         ))}
       </div>
     </div>
