@@ -83,14 +83,6 @@ const MenuPage = () => {
               </button>
             </div>
           </div>
-
-          // <div className="col-4 text-center" key={index}>
-          //   <img src={item.image} alt={item.name} className="menu-image" />
-          //   <p className="menu">
-          //     {item.name}
-          //     <br /> {item.price}
-          //   </p>
-          // </div>
         ))}
       </div>
     </div>
