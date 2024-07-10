@@ -20,7 +20,7 @@ const ContactUs = () => {
               memories together!
             </p>
           </div>
-          <div className="col-md-10 mx-auto col-lg-5">
+          <div className="col-md-10 mx-auto col-lg-5 contact-form">
             <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
               <div className="form-floating mb-3">
                 <input
