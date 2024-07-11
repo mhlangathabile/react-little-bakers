@@ -3,30 +3,26 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <header>
-      <a href="/" className="logo">
+    <nav className="nav">
+      <a href="/" className="bakersTitle">
         TINY BAKERS
       </a>
 
-      <ul className="navBar">
+      <ul>
         <li>
           <a href="/">HOME</a>
         </li>
         <li>
-          <a href="/AboutUs.js">ABOUT US</a>
+          <a href="/AboutUs">ABOUT US</a>
         </li>
         <li>
-          <a href="/Menu.js">MENU</a>
+          <a href="/MenuPage">MENU</a>
         </li>
         <li>
-          <a href="/ContactUs.js">CONTACT US</a>
+          <a href="/ContactUs">CONTACT US</a>
         </li>
       </ul>
-
-      <div className="navContent">
-        <a href=""></a>
-      </div>
-    </header>
+    </nav>
   );
 };
 

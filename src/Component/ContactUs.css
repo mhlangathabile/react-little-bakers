@@ -1,13 +1,10 @@
-body {
+.contactUs {
+  font-family: "Alegreya Sans SC", sans-serif;
+  height: 100vh;
   min-height: 100vh;
   background-image: url("../Images/contactUs.jpg");
   background-size: cover;
   background-position: center;
-}
-
-.contactUs {
-  font-family: "Alegreya Sans SC", sans-serif;
-  height: 100vh;
 }
 
 .contactUs h1 {

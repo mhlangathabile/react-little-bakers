@@ -5,15 +5,8 @@
   font-family: "Alegreya Sans SC", sans-serif;
 }
 
-/* .menuBody {
-  min-height: 100vh;
-  background-image: url("../Images//background-doodle.png");
-  background-size: cover;
-  background-position: center;
-} */
-
-.menuBody {
-  background-color: black;
+body {
+  background-color: #f5f3de;
   color: #e3255b;
 }
 
@@ -34,7 +27,7 @@
   background-color: black;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: white 0px 2px 4px, white 0px 7px 13px -3px,
+  box-shadow: white 0px 2px 4px, black 0px 7px 13px -3px,
     white 0px -3px 0px inset;
   margin: 20px;
   display: flex;

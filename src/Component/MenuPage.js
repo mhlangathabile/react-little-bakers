@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "./NavBar";
 import "./Menu.css";
 import NutellaHeartPiePops from "../Images/Nutella Heart Pie Pops.jpg";
 import StrawberryDonutKabobs from "../Images/Strawberry Donut Kabobs -.jpg";
@@ -73,10 +72,8 @@ const MenuPage = () => {
   ];
 
   return (
-    <div className="menuBody">
-      <NavBar />
+    <div className="menuBody content">
       <h1 className="text-center p-3">MENU</h1>
-
       <div className="card-container">
         {Menu.map((item, index) => (
           <div className="card" key={index}>

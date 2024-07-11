@@ -1,13 +1,10 @@
 import React from "react";
-import NavBar from "./NavBar";
 import "./AboutUs.css";
-import ChefsAttire from "../Images/Chefs attire.jpg";
 import StillLife from "../Images/Still Life Image.gif";
 
 const AboutUs = () => {
   return (
-    <div>
-      <NavBar />
+    <div className="content">
       <div className="row p-5 aboutUs">
         <div className="col-6">
           <h1 className="text-center">ABOUT US</h1>
