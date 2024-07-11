@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomePage.css";
 import NavBar from "./NavBar";
-import BakersShop from "../Images/Bakers shop.jpg";
 
 const HomePage = () => {
   return (

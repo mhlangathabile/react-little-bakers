@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import "./AboutUs.css";
 import ChefsAttire from "../Images/Chefs attire.jpg";
+import StillLife from "../Images/Still Life Image.gif";
 
 const AboutUs = () => {
   return (
@@ -24,7 +25,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="col-6 aboutImage">
-          <img src={ChefsAttire} alt="Little Chefs" className="img-fluid" />
+          <img src={StillLife} alt="Little Chefs" className="img-fluid" />
         </div>
       </div>
     </div>

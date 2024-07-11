@@ -11,6 +11,7 @@ import RainbowPopsicles from "../Images/Rainbow Popsicles.jpg";
 import YoghurtPopsicles from "../Images/Yoghurt Popsicles.jpg";
 import WhippedHotChocolate from "../Images/Whipped Hot Chocolate.jpg";
 import MilkshakeShooters from "../Images/Milkshake Shooters.jpg";
+import BubbleWaffles from "../Images/Bubble waffles.jpg";
 
 const MenuPage = () => {
   let Menu = [
@@ -43,6 +44,11 @@ const MenuPage = () => {
       image: FilledCroissants,
       name: "Filled Croissants",
       price: "R45",
+    },
+    {
+      image: BubbleWaffles,
+      name: "Breakfast Bubble Waffles",
+      price: "R50",
     },
     {
       image: WhippedHotChocolate,
@@ -78,9 +84,12 @@ const MenuPage = () => {
             <div className="card-content">
               <h3>{item.name}</h3>
               <p>Flavours</p>
-              <button href="" className="btn">
-                BUY
-              </button>
+              <div className="card-price">
+                <h2>{item.price}</h2>
+                <button href="" className="btn">
+                  BUY
+                </button>
+              </div>
             </div>
           </div>
         ))}
