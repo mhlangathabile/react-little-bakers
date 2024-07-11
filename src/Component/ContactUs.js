@@ -22,24 +22,30 @@ const ContactUs = () => {
             <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
               <div className="form-floating mb-3">
                 <input
-                  type="text"
+                  type="email"
                   className="form-control"
                   id="floatingInput"
+                  placeholder="name@example.com"
                 />
-                <label for="floatingInput">Email</label>
+                <label htmlFor="floatingInput">Email</label>
               </div>
               <div className="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" />
-                <label for="floatingInput">Name</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="floatingName"
+                  placeholder="John Doe"
+                />
+                <label htmlFor="floatingName">Name</label>
               </div>
-              <div class="form-floating mb-4">
+              <div className="form-floating mb-4">
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   placeholder="Leave a comment here"
                   id="floatingTextarea"
                   style={{ height: "100px" }}
                 ></textarea>
-                <label for="floatingTextarea">Dear Bakers...</label>
+                <label htmlFor="floatingTextarea">Dear Bakers...</label>
               </div>
               <button className="w-100 btn btn-lg" type="submit">
                 Let's Bake

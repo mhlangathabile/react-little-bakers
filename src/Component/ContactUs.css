@@ -5,10 +5,18 @@
   background-image: url("../Images/contactUs.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactUs h1 {
   color: #e3255b !important;
+}
+.content {
+  padding-top: 60px;
 }
 
 .contact-form form {
@@ -17,6 +25,9 @@
   border-radius: 16px !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(2px);
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
 }
 
 button {
