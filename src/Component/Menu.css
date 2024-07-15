@@ -6,12 +6,14 @@
 }
 
 body {
-  background-color: #f5f3de;
+  background-color: #f5f3de !important;
   color: #e3255b;
 }
 
 .menuBody h1 {
-  font-size: 80px;
+  font-size: 80px !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .card-container {

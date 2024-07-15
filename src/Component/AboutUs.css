@@ -1,6 +1,7 @@
 .aboutUs {
   font-family: "Alegreya Sans SC", sans-serif;
   background-color: #d2e8ff;
+  min-height: 100vh;
 }
 
 .aboutImage img {

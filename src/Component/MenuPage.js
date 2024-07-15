@@ -18,56 +18,67 @@ const MenuPage = () => {
       image: NutellaHeartPiePops,
       name: "Nutella Heart Pie Pops",
       price: "R25",
+      flavours: "FLAKY PIE CRUST | CREAMY NUTELLA FILIING",
     },
     {
       image: StrawberryDonutKabobs,
       name: "Strawberry Donut Kabobs",
       price: "R20",
+      flavours: "SWEET STRAWBERRY GLAZE ",
     },
     {
       image: NutellaPancakeStacks,
       name: "Nutella Pancake Stacks",
       price: "R30",
+      flavours: "RICH NUTELLA SPREAD | FRESH STRAWBERRIES",
     },
     {
       image: HeartyPizza,
       name: "Hearty Pizza",
       price: "R35",
+      flavours: "HAWAIIAN BLISS | BUFFALO CHICKEN | PESTO VEGGIE",
     },
     {
       image: PizzaWheels,
       name: "Pizza Wheels",
       price: "R40",
+      flavours: "PEPPERONI DELIGHT | CHEESY VEGGIE | BBQ CHICKEN",
     },
     {
       image: FilledCroissants,
       name: "Filled Croissants",
       price: "R45",
+      flavours: "TURKEY & CHEESE | CHICKEN AN AND RANCH | EGG & CHEESE",
     },
     {
       image: BubbleWaffles,
       name: "Breakfast Bubble Waffles",
       price: "R50",
+      flavours: "HAM & CHEESE | GRILLED CHICKEN AND AVO | BACON LETTUCE TOM",
     },
     {
       image: WhippedHotChocolate,
       name: "Whipped Hot Chocolate",
       price: "R50",
+      flavours: "MARSHMALLOW MELT | CINNAMON SPICE | CLASSIC COCOA",
     },
     {
       image: MilkshakeShooters,
       name: "Milkshake Shooters",
       price: "R55",
+      flavours: "OREO CRUNCH | VANILLA DREAM | STRAWBERRY BLISS",
     },
     {
       image: RainbowPopsicles,
       name: "Rainbow Popsicles",
       price: "R60",
+      flavours: "PEACH PARADISE | GRAPE ESCAPE | TROPICALTWIST",
     },
     {
       image: YoghurtPopsicles,
       name: "Yoghurt Popsicles",
       price: "R65",
+      flavours: "BERRY BLAST | CHOCO BANANA | UNICORN DELIGHT",
     },
   ];
 
@@ -80,7 +91,7 @@ const MenuPage = () => {
             <img src={item.image} alt={item.name} />
             <div className="card-content">
               <h3>{item.name}</h3>
-              <p>Flavours</p>
+              <p>{item.flavours}</p>
               <div className="card-price">
                 <h2>{item.price}</h2>
                 <button href="" className="btn">

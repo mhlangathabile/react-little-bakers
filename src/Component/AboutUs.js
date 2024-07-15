@@ -4,8 +4,8 @@ import StillLife from "../Images/Still Life Image.gif";
 
 const AboutUs = () => {
   return (
-    <div className="content">
-      <div className="row p-5 aboutUs">
+    <div className="content aboutUs">
+      <div className="row p-5 ">
         <div className="col-6">
           <h1 className="text-center">ABOUT US</h1>
           <div className=" border-top border-right border-light rounded-bottom p-5">
