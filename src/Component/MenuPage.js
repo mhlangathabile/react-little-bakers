@@ -18,7 +18,7 @@ const MenuPage = () => {
       image: NutellaHeartPiePops,
       name: "Nutella Heart Pie Pops",
       price: "R25",
-      flavours: "FLAKY PIE CRUST | CREAMY NUTELLA FILIING",
+      flavours: "FLAKY PIE CRUST | CREAMY NUTELLA FILIING  ",
     },
     {
       image: StrawberryDonutKabobs,
